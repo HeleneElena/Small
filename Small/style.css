@@ -1,0 +1,39 @@
+body {
+    background-image: url('./images/Reef.jpg');
+}
+.todo {
+    margin-top: 250px;
+    margin-left: 750px;
+}
+.title {
+    color: #06031d;
+}
+.input {
+    height: 25px;
+    width: 223px;
+}
+
+.todo-text {
+    font-size: 20px;
+}
+.buttons {
+    margin-left: 750px;
+    margin-top: 30px;
+}
+.save {
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #023F7E;
+    color: blanchedalmond;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.clear {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #023F7E;
+    color: blanchedalmond;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}

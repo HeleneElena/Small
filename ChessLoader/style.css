@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.desk {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 20px #000;
+  position: relative;
+  background: conic-gradient(
+    #fff 0deg,
+    #fff 90deg,
+    #000 90deg,
+    #000 180deg,
+    #fff 180deg,
+    #fff 270deg,
+    #000 270deg,
+    #000 360deg
+  );
+}
+.desk span {
+  display: block;
+  width: 50%;
+  height: 50%;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: #fff;
+}
+.pawn1 {
+  top: 0;
+  left: 0;
+  animation: first 4s linear infinite;
+}
+.pawn2 {
+  top: 50%;
+  left: 50%;
+  animation: second 4s linear infinite;
+}
+@keyframes first {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 50%;
+    color: #000;
+  }
+  50% {
+    top: 50%;
+    left: 50%;
+    color: #fff;
+  }
+  75% {
+    top: 50%;
+    left: 0;
+    color: #000;
+  }
+}
+

@@ -1,9 +1,0 @@
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(rgb(0, 110, 255), transparent 1px), 
-  linear-gradient(90deg, rgb(0, 110, 255), transparent 1px);
-  background-size: 20px 20px;
-}

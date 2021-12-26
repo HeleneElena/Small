@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adaptive menu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul class="visible-menu">
+            <li class="visible-menu-link"><a href="#">Home</a></li>
+            <li class="visible-menu-link"><a href="#">Über mich</a></li>
+            <li class="visible-menu-link"><a href="#">Mein Portfolio</a></li>
+            <li class="visible-menu-link"><a href="#">Lebenslauf</a></li>
+            <li class="visible-menu-link"><a href="#">Bestellen</a></li>
+            <li class="visible-menu-link"><a href="#">Bezahlung</a></li>
+            <li class="visible-menu-link"><a href="#">Kontakte</a></li>
+        </ul>
+        <button class="burger hidden">
+             <svg width="30" heigtt="40">
+                <circle cx="15" cy="10" r="2" fill="#fff" />
+                <circle cx="15" cy="20" r="2" fill="#fff" />
+                <circle cx="15" cy="30" r="2" fill="#fff" />
+             </svg>
+             <div class="burger-count"></div>
+        </button>
+        <ul class="hidden-menu"></ul>
+    </nav>
+
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.modal {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: fixed;
+  display: none;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* чтобы если надо скролл появлялся*/
+  background-color:rgba(0, 0, 0, 0.37);
+}
+.modal_content {
+  background-color:rgb(255, 255, 255);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  z-index: 800;
+}
+.modal, .modal_content {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+p {
+  font-size: 20px;
+  color:rgba(0, 0, 0);
+  font-weight: lighter;
+}
+.modal_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.close_modal_window {
+  font-size: 40px;
+}
+button {
+  padding: 20px 35px;
+  background: rgb(34, 219, 59);
+  columns: black;
+  border-radius: 20px;
+  border: 1px solid rgb(34, 219, 59);
+  margin-top: 150px;
+  margin-left: 200px;
+  font-size: 20px;
+}

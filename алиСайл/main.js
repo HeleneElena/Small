@@ -8,6 +8,26 @@ const formSearch = document.querySelector('.form-search'),
 const city = ['Moskau', 'Regensburg', 'Minich', 'Berlin', 'Leipzig', 'Dresden', 'Kemerovo', 'Novosibirsk',
                'Prag', 'Barselona'];
 
+  // 
+  const getData = () => {
+      const request = new XMLHttpRequest();   // объект запроса
+
+      request.open('GET', url);
+
+      request.addEventListener('readystatechange', () => {
+        if (request.readyState !== 4) return;
+            console.log(request.response);
+        if (request.status === 200) {
+            
+        } else {
+            console.error(request.status);
+        }
+      });
+      request.send();
+  };
+
+
+// функция поиск городов
 const showCity = (input, list) => {
         list.textContent = '';
 
@@ -27,15 +47,30 @@ const showCity = (input, list) => {
         } 
     };
 
+  
+    const selectCity = (event, input, list) => {
+        const target = event.target;
+        if (target.tagName.toLowerCase() === 'li') {
+            input.value = target.textContent;
+            list.textContent = '';
+        }
+    };
+
+// обработчики событий
     inputCitiesFrom.addEventListener('input', () => {
         showCity(inputCitiesFrom, dropdownCitiesFrom);
     });
-    dropdownCitiesFrom.addEventListener('click', (event) => {
-        const target = event.target;
-        if (target.tagName.toLowerCase() === 'li') {
-            inputCitiesFrom.value = target.textContent;
-            dropdownCitiesFrom.textContent = '';
-        }
+        
+    inputCitiesTo.addEventListener('input', () => {
+        showCity(inputCitiesTo, dropdownCitiesTo);
     });
 
+    dropdownCitiesFrom.addEventListener('click', (event) => {
+          selectCity(event, inputCitiesFrom, dropdownCitiesFrom);
+    });
 
+    dropdownCitiesTo.addEventListener('click', (event) => {
+          selectCity(event, inputCitiesTo, dropdownCitiesTo);
+    });
+
+  getData();

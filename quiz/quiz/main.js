@@ -71,7 +71,7 @@ function showQestion() {
 
 }
 
-/* function checkAnswer() {
+ function checkAnswer() {
     console.log('checkAnswer');
 
     // находим выбранную радиокнопку
@@ -82,5 +82,5 @@ function showQestion() {
         return;  // если ответ не выбран, ничего не делаем, выходим из функции
     }
 
-    */
+
 }

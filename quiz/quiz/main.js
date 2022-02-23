@@ -42,10 +42,10 @@ clearPage();
 showQestion();
 btn.addEventListener('click', checkAnswer);
 
-function clearPage() {
+ /* function clearPage() {
     quizHeader.innerHTML = '';
     quizList.innerHTML = '';
-}
+} */
 
 function showQestion() {
     const headerTemplate = `<h2 class="title">%title%</h2>`; 

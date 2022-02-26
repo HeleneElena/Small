@@ -5,11 +5,10 @@ body {
     background: #013B45;
     border-radius: 20px;
     width: 563px;
-    height: 474px;
     margin: 150px auto;
 }
 .quiz-header {
-    padding: 3%;
+    padding: 4%;
     font-weight: bold;
     font-size: 1.2rem;
     line-height: 30px;
@@ -21,7 +20,7 @@ body {
 }
 .answer {
     color: #013B45;
-    margin: 5%;
+    margin: 3%;
 }
 span {
     font-weight: bold;
@@ -32,7 +31,6 @@ span {
 .quiz-submit {
     background: #66A5AD;
     border-radius: 0px 0px 20px 20px;
-    margin-top: 60px;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;

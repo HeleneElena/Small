@@ -28,7 +28,7 @@ const city = ['Moskau', 'Regensburg', 'Minich', 'Berlin', 'Leipzig', 'Dresden', 
 
 
 // функция поиск городов
-/* const showCity = (input, list) => {
+const showCity = (input, list) => {
         list.textContent = '';
 
         if (input.value !== '') {
@@ -47,7 +47,6 @@ const city = ['Moskau', 'Regensburg', 'Minich', 'Berlin', 'Leipzig', 'Dresden', 
         } 
     };
 
-  */
     const selectCity = (event, input, list) => {
         const target = event.target;
         if (target.tagName.toLowerCase() === 'li') {

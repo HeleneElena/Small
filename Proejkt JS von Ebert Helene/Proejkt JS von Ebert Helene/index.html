@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/slider.js" defer></script>
+    <script src="./js/counter.js" defer></script>
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="slider">
+                    <div class="slider-line">
+                        <img src="./image/slider2.jpg" alt="Bücher">
+                        <img src="./image/slider1.jpg" alt="Bücher">
+                        <img src="./image/slider3.jpg" alt="Bücher">
+                        <img src="./image/slider4.jpg" alt="Bücher">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <div class="arrow-left">
+                <img class="arrow-l" src="./image/icons8-arrow-96 2.svg" alt="arrow">
+            </div>
+            <div class="arrow-right">
+                <img class="arrow-r" src="./image/icons8-arrow-96 1.svg" alt="arrow">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="wrapper">
+                <!--Waren-->
+                <div class="buchskorb">
+                    <div class="buchs">
+                        <!--card1-->
+                        <div class="card">
+                            <img class="foto" src="./image/buch1.jpg" alt="buch">
+                            <h2  class="title-card">HTML/CSS für Anfänger</h2>
+                            <!--Zähler-->
+                            <div class="buttons">
+                                <div class="counter"> 
+                                    <button class="remov-btn" data-action="minus">-</button>
+                                    <div class="menge-btn" data-counter>1</div>
+                                    <button class="add-btn" data-action="plus">+</button>
+                                </div>
+                                <p class="kost"> <span>6</span> €</p>
+                            </div>
+                            <button class="korb">In den Warenkorb </button>
+                        </div>
+                        <!--card2-->
+                        <div class="card">
+                            <img class="foto" src="./image/buch2.jpg" alt="buch">
+                            <h2  class="title-card">Wie man online Geld verdient</h2>
+                             <!--Zähler-->
+                            <div class="buttons">
+                                <div class="counter"> 
+                                    <button class="remov-btn" data-action="minus">-</button>
+                                    <div class="menge-btn" data-counter>1</div>
+                                    <button class="add-btn" data-action="plus">+</button>
+                                </div>
+                                <p class="kost"> <span>5</span> €</p>
+                            </div>
+                            <button class="korb">In den Warenkorb </button>
+                        </div>
+                    </div>
+                    <div class="buchs">
+                        <!--card3-->
+                        <div class="card">
+                            <img class="foto" src="./image/buch3.jpg" alt="buch">
+                            <h2  class="title-card">Wie man ein Diplom schreibt</h2>
+                             <!--Zähler-->
+                            <div class="buttons">
+                                <div class="counter"> 
+                                    <button class="remov-btn" data-action="minus">-</button>
+                                    <div class="menge-btn" data-counter>1</div>
+                                    <button class="add-btn" data-action="plus">+</button>
+                                </div>
+                                <p class="kost"> <span>8</span> €</p>
+                            </div>
+                            <button class="korb">In den Warenkorb </button>
+                        </div>
+                        <!--card4-->
+                        <div class="card">
+                            <img class="foto" src="./image/buch4.jpg" alt="buch">
+                            <h2 class="title-card title-card1">Mein Deutsch</h2>
+                             <!--Zähler-->
+                            <div class="buttons">
+                                <div class="counter"> 
+                                    <button class="remov-btn" data-action="minus">-</button>
+                                    <div class="menge-btn" data-counter>1</div>
+                                    <button class="add-btn" data-action="plus">+</button>
+                                </div>
+                                <p class="kost"> <span>5</span> €</p>
+                            </div>
+                            <button class="korb">In den Warenkorb </button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Korb-->
+                <div class="warenkorb">
+                    <h2 class="title-korb">Ihre Bestellung</h2>
+                        <div class="line"></div>
+                    <div class="besst">
+                        <img class="foto-besst" src="./image/buch3.jpg" alt="buch">
+                        <div class="wrapper-best"> 
+                            <h2 class="title-waren">Wie man ein Diplom schreibt</h2>
+                            <div class="buttons buttons1">
+                                <button class="remov-btn remov1">-</button>
+                                <div class="menge-btn menge1">0</div>
+                                <button class="add-btn add1">+</button>
+                                <p class="kost">8 €</p>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="line"></div>
+                    <div class="wrapper-summe">
+                        <div class="gesamtsumme">Gesamtsumme:</div>
+                        <div class="price">5 €</div>
+                    </div>
+                    <div class="line"></div>
+                    <button class="besstellen">Bestellen</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

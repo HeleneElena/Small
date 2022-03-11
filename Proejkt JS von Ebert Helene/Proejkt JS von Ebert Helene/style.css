@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img, svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+h1, h2, h3, p {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+p + p {
+    margin-top: 1em;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: #4E5D79;
+}
+.header {
+    background: #FF902E;
+    margin-bottom: 80px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.slider {
+    width: 1029px;
+    height: 442px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider-line {
+    height: 442px;
+    width: 4116px;
+    display: flex;
+    position: relative;
+    transition: all 2s ease;
+}
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow-l {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    top: 20%;
+    left: 5%;
+}
+.arrow-r {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    top: 20%;
+    right: 5%;
+}
+.section {
+    width: 1440px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.wrapper {
+    display: flex;
+}
+.buchskorb
+.buchs {
+    display: flex;
+}
+.foto {
+    width: 167px;
+    height: 215px;
+    margin: 50px;
+}
+.title-card {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 46px;
+    margin-right: 250px;
+    text-align: center;
+}
+.title-card1 {
+    margin-left: 50px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.remov-btn, .add-btn, .menge-btn {
+    font-weight: 300;
+    line-height: 33px;
+    background: #4E5D79;
+    color: #fff;
+    border: none;
+}
+.remov-btn:hover, .add-btn:hover {
+    color: rgb(253, 169, 11);
+}
+.remov-btn {
+    font-size: 64px;
+}
+.menge-btn {
+    font-size: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.add-btn {
+    font-size: 48px;
+   
+}
+.counter {
+    border: 1px solid #f57a0e;
+    display: flex;
+    padding: 2%;
+}
+.kost {
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 33px;
+    margin-left: 70px;
+}
+span {
+    margin-right: 20px;
+}
+.korb {
+    width: 302px;
+    height: 70px;
+    background: #FF902E;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px solid #FF902E;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.korb:hover {
+    background: #f57a0e;
+    color: #fff;
+}
+.warenkorb {
+    width: 451px;
+    height: 830px;
+    background: #FF902E;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.besst {
+    width: 451px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    display: flex;
+}
+.foto-besst {
+    width: 84.98px;
+    height: 120px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.line {
+    width: 451px;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+.wrapper-best {
+    height: 200px;
+}
+.title-korb {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.title-waren {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+.remov1, .add1, .menge1 {
+    background: #FF902E;
+}
+
+.remov1, .add1 {
+    font-size: 40px;
+} 
+.menge1 {
+    font-size: 38px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.wrapper-summe {
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 33px;
+}
+.gesamtsumme {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin-right: 68px;
+    margin-left: 35px;
+}
+.price {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 33px;
+}
+.besstellen {
+    width: 380px;
+    height: 78px;
+    background: #4E5D79;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-left: 35px;
+    border: 1px solid #4E5D79;
+}
+.besstellen:hover {
+    background: #4b6391;
+    color: #fff;
+}

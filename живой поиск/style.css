@@ -1,0 +1,24 @@
+body {
+    background: #93dff1;
+}
+.mai {
+    margin-top: 100px;
+    margin-left: 700px;
+}
+.elast-list {
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: #050505;
+}
+.quiz-list {
+    height: 200px;
+    list-style: none;
+}
+.answer {
+    color: #013B45;
+    margin: 3%;
+}
+.elast-list li.hide {
+    display: none;
+}

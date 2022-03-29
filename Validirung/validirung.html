@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<form action="/action_page.php">
+			  <label for="usrname">Name</label>
+			  <input type="text" id="usrname" name="usrname" required>
+		  
+			  <label for="psw">Das Passwort</label>
+			<input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Muss mindestens eine Zahl, einen Groß- und Kleinbuchstaben sowie mindestens 8 oder mehr Zeichen enthalten" required>
+		  
+			  <input type="submit" value="Send">
+			</form>
+		  </div>
+		  
+		  <div id="message">
+			<h3>Das Passwort muss Folgendes enthalten:</h3>
+			<p id="letter" class="invalid"><b>Kleinbuchstaben</b></p>
+			<p id="capital" class="invalid"><b>Großbuchstaben</b></p>
+			<p id="number" class="invalid"><b>Zahl</b></p>
+			<p id="length" class="invalid"><b>Mindestens 8 Zeichen</b></p>
+		  </div> 
+		<script src="./form.js"></script>
+	</body>
+</html>

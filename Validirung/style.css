@@ -1,0 +1,60 @@
+
+ /* Стиль всех полей ввода */
+ input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  /* Стиль кнопки "Отправить" */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Стиль контейнера для входных данных */
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Окно сообщения отображается, когда пользователь нажимает на поле пароля */
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Добавить зеленый цвет текста и галочка, когда требования верны */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "";
+  }
+  
+  /* Добавить красный цвет текста и собой "x" и значок, когда требования не правы */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "";
+  } 

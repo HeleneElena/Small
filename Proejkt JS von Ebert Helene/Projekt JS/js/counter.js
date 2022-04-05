@@ -1,5 +1,5 @@
 'use strict'
-window.addEventListener('click', (event) => {
+window.addEventListener('click', function (event) {
     let counter;
 
     if (event.target.dataset.action === 'plus' || event.target.dataset.action === 'minus') {
@@ -17,6 +17,12 @@ window.addEventListener('click', (event) => {
 
             }  else if (event.target.closest('.cart-wrapper') && parseInt(counter.innerText) === 1) {  
                 event.target.closest('.cart-item').remove();
+                calcPrice();
             }
         }
-})
+
+        if (event.target.hasAttribute('data-action') && event.target.closest('.cart-wrapper')) {
+            calcPrice();
+        }
+
+});

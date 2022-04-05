@@ -2,7 +2,7 @@
 const cartWrapper = document.querySelector('.cart-wrapper'); // mein Warenkorb
 	  
 
-window.addEventListener('click', (event) => {
+window.addEventListener('click', function (event) {
     if (event.target.hasAttribute('data-cart')) {
        const card = event.target.closest('.card');
         
@@ -10,8 +10,8 @@ window.addEventListener('click', (event) => {
            id: card.dataset.id,
            image: card.querySelector('.product-img').getAttribute('src'),
            title: card.querySelector('.item-title').innerText,
-           counter: card.querySelector('.items__current').innerText,
-           price: card.querySelector('.price__currency').innerText,
+           counter: card.querySelector('[data-counter]').innerText,
+           price: card.querySelector('.price__currency .value').innerText,
        };
 
 	   const wareInKorb = cartWrapper.querySelector(`[data-id = "${produktInfo.id}"]`); // mein Buch im Korb
@@ -37,7 +37,10 @@ window.addEventListener('click', (event) => {
 								</div>
 
 								<div class="price">
-									<div class="price__currency">${produktInfo.price}</div>
+									<div class="price__currency">
+									<span class="value">${produktInfo.price}</span> 
+									<span class="euro">€</span>
+									</div>
 								</div>
 
 							</div>
@@ -47,8 +50,8 @@ window.addEventListener('click', (event) => {
 			`;
        cartWrapper.insertAdjacentHTML('beforeend', cartItem);
 	   }
-
-
-       
+	   
+	   calcPrice();
     }
+
 })

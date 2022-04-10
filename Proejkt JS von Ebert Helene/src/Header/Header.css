@@ -1,0 +1,106 @@
+.header {
+    background: url('./headerBg.jpg') no-repeat center top;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header1 {
+    background: #4E5D79;
+}
+
+.header2 {
+    background: #FF902E;
+}
+
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 90px;
+    color: #FF902E;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.header_title {
+    line-height: 28px;
+    color: #E7E2E1;
+    margin-top: 80px;
+}
+
+.header_content {
+    color: #4E5D79;
+    padding-bottom: 253px;
+    padding-right: 139px;
+    max-width: 629px;
+    padding-left: 60px;
+}
+
+.header_textDeutsch {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin-top: 87px;
+    position: relative;
+}
+
+.header_textRussisch {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 32px;
+}
+
+.header_technologie_list {
+    font-weight: 500;
+    line-height: 21px;
+    color: #FF902E;
+    margin-top: 39px;
+    font-size: 1.5rem;
+}
+
+.header_technologie_list>span {
+    color: #E7E2E1;
+}
+
+.header_button {
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 21px;
+    padding: 22px;
+    background: #FF902E;
+    border: 1px solid #FF902E;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    top: -150px;
+    transform: translate(-20%, 0);
+    cursor: pointer;
+    transition-duration: 1s;
+    box-shadow: 5px 8px 7px rgb(58, 58, 58);
+}
+
+.header_link {
+    text-decoration: none;
+    color: #4E5D79;
+}
+
+.header_button:hover {
+    color: #fff;
+    background: #e77007;
+    box-shadow: 2px 4px 4px rgb(58, 58, 58);
+}
+
+.header_link:hover {
+    color: #E7E2E1;
+}

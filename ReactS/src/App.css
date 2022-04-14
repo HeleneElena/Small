@@ -1,8 +1,10 @@
 .App {
   text-align: center;
-  font-size: 1rem;
 }
-.Section {
-  display: flex;
-  margin: 10%;
+.tic-tac {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  margin: 50px auto;
 }
+

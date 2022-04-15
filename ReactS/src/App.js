@@ -5,12 +5,18 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      squares: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+      squares: Array(9).fill(null), 
+      count: 0
     }
   }
 
   clickHandler = event => {
-    
+    let data = event.target.getAttribute('data');
+    let currentSquares = this.state.squares;
+    this.setState({squares: currentSquares});
+    currentSquares[data] = (this.state.count % 2 === 0) ? 'X' : '0';
+    this.setState({count: this.state.count + 1});
+    this.setState({squares: currentSquares});
   }
   render() {
     return (

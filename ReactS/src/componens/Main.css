@@ -1,0 +1,29 @@
+.h1 {
+    text-transform: capitalize;
+}
+
+.table {
+    text-align: left;
+    border: 1px solid#284c94;
+    border-collapse: collapse
+}
+
+td,
+th {
+    border: 1px solid #284c94;
+    border-collapse: collapse;
+    padding: 6px 8px;
+    max-width: 200px
+}
+
+th {
+    background-color: #dce5f5;
+}
+
+.odd td {
+    background-color: #e9edf5;
+}
+
+td.button {
+    cursor: pointer;
+}

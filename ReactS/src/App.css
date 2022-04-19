@@ -1,10 +1,37 @@
-.App {
-  text-align: center;
-}
-.tic-tac {
-  width: 150px;
-  height: 150px;
-  border: 2px solid black;
-  margin: 50px auto;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+img,
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+p+p {
+  margin-top: 1em;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background: #4E5D79;
+}
+
+.body1 {
+  background: #FF902E;
+}

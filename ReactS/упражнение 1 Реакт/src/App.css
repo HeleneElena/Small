@@ -1,0 +1,36 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #122240;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+table {
+  text-align: left;
+  border: 1px solid#284c94;
+  border-collapse: collapse
+}
+td, th {
+  border: 1px solid #284c94;
+  border-collapse: collapse;
+  padding: 6px 8px;
+  max-width: 200px
+}
+th {
+  background-color: #dce5f5;
+}
+.odd td {
+    background-color: #e9edf5;
+}
+td.button {
+  cursor: pointer;
+}
+
+button {
+  padding: 6px 8px;
+  background-color: #dce5f5;
+  border: 1px solid #284c94;
+  cursor: pointer;
+}

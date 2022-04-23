@@ -1,0 +1,29 @@
+#container {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #122240;
+  width: 95%;
+  margin: 0 auto
+}
+
+form {
+  border: 1px solid#284c94;
+  background-color: #e9edf5;
+  padding: 0 10px 10px 10px
+}
+form h2 {
+  font-size: 125%;
+  margin: 15px 0
+}
+form h3 {
+  font-size: 115%
+}
+form label {
+  display: block;
+  margin: 10px 0 5px 0
+}
+form button {
+  margin: 10px 0 5px 0;
+  background-color: #dce5f5;
+  border: 1px solid #284c94;
+  cursor: pointer;
+}

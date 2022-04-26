@@ -1,0 +1,25 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 15px;
+  color: #122240;
+}
+table {
+  text-align: left;
+  border: 1px solid#284c94;
+  border-collapse: collapse;
+  margin-bottom: 15px
+}
+a {
+  color: #122240;
+}
+td, th {
+  border: 1px solid#284c94;
+  border-collapse: collapse;
+  padding: 8px 16px
+}
+.odd td {
+  background-color: #e9edf5;
+}
+th {
+  background-color: #dce5f5;
+}

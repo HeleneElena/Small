@@ -1,0 +1,39 @@
+{
+    "spiele": [
+      {
+        "id": 1,
+        "titel": "Donkey Kong",
+        "jahr": 1981,
+        "publisher": "Nintendo",
+        "preis": 99.99
+      },
+      {
+        "id": 2,
+        "titel": "Pac-Man",
+        "jahr": 1980,
+        "publisher": "Namco",
+        "preis": 99.99
+      },
+      {
+        "id": 3,
+        "titel": "Asteroids",
+        "jahr": 1979,
+        "publisher": "Atari",
+        "preis": 99.99
+      },
+      {
+        "id": 4,
+        "titel": "Space Invaders",
+        "jahr": 1978,
+        "publisher": "Taito",
+        "preis": 99.99
+      },
+      {
+        "id": 5,
+        "titel": "Pong",
+        "jahr": 1972,
+        "publisher": "Atari",
+        "preis": 99.99
+      }
+    ]
+  }

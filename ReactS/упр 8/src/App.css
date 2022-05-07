@@ -1,0 +1,53 @@
+#container {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 95%;
+  color: #122240;
+  margin: 0 auto
+}
+h2, form {
+  font-size: 90%
+}
+nav div {
+  border: 1px solid#284c94;
+  padding: 10px 20px;
+  color: #122240;
+  background-color: #dce5f5;
+  cursor: pointer;
+  float: left
+}
+nav .active div {
+  background-color: #e9eef7;
+  color: grey
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+form {
+  margin-bottom: 15px
+}
+table {
+  text-align: left;
+  border: 1px solid#284c94;
+  border-collapse: collapse;
+  margin-top: 15px
+}
+td, th {
+  border: 1px solid#284c94;
+  border-collapse: collapse;
+  padding: 8px 16px
+}
+th {
+  background-color: #dce5f5;
+}
+td:last-child {
+  cursor: pointer
+}
+label, input {
+  display: block;
+  margin-bottom: 5px
+}
+a {
+  color: #122240;
+}

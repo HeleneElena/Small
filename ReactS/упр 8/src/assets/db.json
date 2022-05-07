@@ -1,0 +1,230 @@
+{
+    "users": [
+      {
+          "username": "admin",
+          "password": "admin"
+      }
+    ],
+    "maincats": ["Entertainment", "Sport"],
+    "subcats": [
+      {
+        "maincat": "0",
+        "subcat": "0",
+        "name": "Spiele"
+      },
+      {
+        "maincat": "0",
+        "subcat": "1",
+        "name": "Bücher"
+      },
+      {
+        "maincat": "0",
+        "subcat": "2",
+        "name": "Audio-Books"
+      },
+      {
+        "maincat": "1",
+        "subcat": "0",
+        "name": "Schuhe"
+      },
+      {
+        "maincat": "1",
+        "subcat": "1",
+        "name": "Geräte"
+      }
+    ],
+    "artikel": [
+      {
+        "id": 1,
+        "maincat": "0",
+        "subcat": "0",
+        "Titel": "Donkey Kong",
+        "Jahr": 1981,
+        "Publisher": "Nintendo",
+        "Preis": 99.99
+      },
+      {
+        "id": 2,
+        "maincat": "0",
+        "subcat": "0",
+        "Titel": "Pac-Man",
+        "Jahr": 1980,
+        "Publisher": "Namco",
+        "Preis": 99.99
+      },
+      {
+        "id": 3,
+        "maincat": "0",
+        "subcat": "0",
+        "Titel": "Asteroids",
+        "Jahr": 1979,
+        "Publisher": "Atari",
+        "Preis": 99.99
+      },
+      {
+        "id": 4,
+        "maincat": "0",
+        "subcat": "0",
+        "Titel": "Space Invaders",
+        "Jahr": 1978,
+        "Publisher": "Taito",
+        "Preis": 99.99
+      },
+      {
+        "id": 5,
+        "maincat": "0",
+        "subcat": "0",
+        "Titel": "Pong",
+        "Jahr": 1972,
+        "Publisher": "Atari",
+        "Preis": 99.99
+      },
+      {
+        "id": 6,
+        "maincat": "0",
+        "subcat": "1",
+        "Autor": "Stephen King",
+        "Titel": "Carrie",
+        "Jahr": 1974,
+        "Seiten": 199,
+        "Verlag": "Doubleday",
+        "Preis": 9.99
+      },
+      {
+        "id": 7,
+        "maincat": "0",
+        "subcat": "1",
+        "Autor": "Stephen King",
+        "Titel": "The Shining",
+        "Jahr": 1977,
+        "Seiten": 447,
+        "Verlag": "Doubleday",
+        "Preis": 9.99
+      },
+      {
+        "id": 8,
+        "maincat": "0",
+        "subcat": "1",
+        "Autor": "Stephen King",
+        "Titel": "Christine",
+        "Jahr": 1983,
+        "Seiten": 526,
+        "Verlag": "Viking",
+        "Preis": 14.99
+      },
+      {
+        "id": 9,
+        "maincat": "0",
+        "subcat": "1",
+        "Autor": "Stephen King",
+        "Titel": "It",
+        "Jahr": 1986,
+        "Seiten": 1138,
+        "Verlag": "Viking",
+        "Preis": 19.99
+      },
+      {
+        "id": 10,
+        "maincat": "0",
+        "subcat": "1",
+        "Autor": "Stephen King",
+        "Titel": "Misery",
+        "Jahr": 1987,
+        "Seiten": 310,
+        "Verlag": "Viking",
+        "Preis": 9.99
+      },
+      {
+        "id": 11,
+        "maincat": "0",
+        "subcat": "1",
+        "Autor": "Stephen King",
+        "Titel": "Joyland",
+        "Jahr": 2013,
+        "Seiten": 288,
+        "Verlag": "Hard Case Crime",
+        "Preis": 9.99
+      },
+      {
+        "id": 12,
+        "maincat": "0",
+        "subcat": "2",
+        "Autor": "Stephen King",
+        "Titel": "Bag of Bones",
+        "Jahr": 2005,
+        "Länge": 240,
+        "Verlag": "Simon & Schuster Audio",
+        "Preis": 19.99
+      },
+      {
+        "id": 13,
+        "maincat": "0",
+        "subcat": "2",
+        "Autor": "Stephen King",
+        "Titel": "On Writing: A Memoir of the Craft",
+        "Jahr": 2000,
+        "Länge": 120,
+        "Verlag": "Simon & Schuster Audio",
+        "Preis": 19.99
+      },
+      {
+        "id": 14,
+        "maincat": "0",
+        "subcat": "2",
+        "Autor": "Stephen King",
+        "Titel": "Salem's Lot (introduction)",
+        "Jahr": 2004,
+        "Länge": 180,
+        "Verlag": "Simon & Schuster Audio",
+        "Preis": 29.99
+      },
+      {
+        "id": 15,
+        "maincat": "1",
+        "subcat": "0",
+        "Titel": "Air Betonfuß",
+        "Hersteller": "Mike",
+        "Preis": 149.99
+      },
+      {
+        "id": 16,
+        "maincat": "1",
+        "subcat": "0",
+        "Titel": "Turtle Light",
+        "Hersteller": "attitas",
+        "Preis": 129.99
+      },
+      {
+        "id": 17,
+        "maincat": "1",
+        "subcat": "0",
+        "Titel": "Royal Classic Loser",
+        "Hersteller": "Rehbock",
+        "Preis": 99.99
+      },
+      {
+        "id": 18,
+        "maincat": "1",
+        "subcat": "1",
+        "Titel": "Hantelset 250g",
+        "Beschreibung": "Kurzhantel, 10 Scheiben",
+        "Preis": 149.99
+      },
+      {
+        "id": 19,
+        "maincat": "1",
+        "subcat": "1",
+        "Titel": "Fingerexpander",
+        "Beschreibung": "Maximallänge 25cm",
+        "Preis": 149.99
+      },
+      {
+        "id": 20,
+        "maincat": "1",
+        "subcat": "1",
+        "Titel": "Gymnastikball",
+        "Beschreibung": "Durchmesser 8,5m",
+        "Preis": 149.99
+      }
+    ]
+  }

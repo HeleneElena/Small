@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+.contsiner {
+    width: 500px;
+    height: 500px;
+    background-color: #2f425c;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+#input, #list {
+    display: inline-block;
+    margin-top: 30px;
+}
+#list {
+    padding: 0;
+    margin-top: 10px;
+    list-style-type: none;
+}
+.listitem {
+    margin-bottom: 10px;
+    color: #fff;
+}
+.delete {
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: #48CDFA;
+    border: none;
+    cursor: pointer;
+}
+.fertig {
+    background-color: #48CDFA;
+    border: none;
+    cursor: pointer;
+}
+.delete:hover, .fertig:hover {
+    background-color: #0eb0e6;
+    color: #fff;
+}
+.done {
+    text-decoration: line-through;
+}
+.hide {
+    display: none;
+}

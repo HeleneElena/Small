@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+.wrapper {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+}
+.input {
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.list {
+    width: 500px;
+    margin: 0 auto;
+}
+.hide {
+    display: none;
+}

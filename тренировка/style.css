@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+.wrapper {
+    width: 500px;
+    height: 500px;
+    background-color: #00CDBD;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.such {
+    margin-top: 50px;
+    margin-left: 32%;
+}
+.hide {
+    display: none;
+}
+.line {
+    text-decoration: line-through;
+}
+ul {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.btn {
+    width: 50px;
+    height: 20px;
+    background: #FF902E;
+    border-radius: 20px;
+    color: #000;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

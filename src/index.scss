@@ -13,11 +13,16 @@
     width: 46.875rem;
     transform: translate(-50%, -50%);
     border: 1px solid #F4F6F8;
-        box-shadow: 1px 2px 20px #F4F6F8;
+    box-shadow: 1px 2px 20px #F4F6F8;
+    font-style: 16px;
+
     &__sidebar {
         background-color: #F4F6F8;
         width: 12.5rem;
         height: 100%;
         border-right: 1px solid #F4F6F8;
+        padding: 60px 20px;
     }
+
+    
 }

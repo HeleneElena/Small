@@ -1,0 +1,45 @@
+@mixin font ($weight, $size, $height) {
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+}
+
+@mixin smallPhone {
+    @media (max-width: 25.875em) {
+        @content;
+    }
+}
+
+@mixin phone {
+    @media (min-width: 25.9375em) and (max-width: 48em) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 48.0625em) and (max-width: 64em) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 64.0625em) {
+        @content;
+    }
+}
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+}
+  
+@mixin flexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flexCenterCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

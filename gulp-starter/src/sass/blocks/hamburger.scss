@@ -1,0 +1,26 @@
+.hamburger {
+    display: inline-block;
+    .line {
+        width: 4rem;
+        height: .5rem;
+        background-color: #fff;
+        display: block;
+        margin: .5rem auto;
+        transition: all 0.3s ease-in-out;
+    }
+}
+.hamburger:hover{
+    cursor: pointer;
+}
+.hamburger.active {
+    top: 3.8rem;
+}
+.hamburger.active .line:nth-child(2){
+    opacity: 0;
+}
+.hamburger.active .line:nth-child(1){
+    transform: translateY(1rem) rotate(45deg);
+}
+.hamburger.active .line:nth-child(3){
+    transform: translateY(-1rem) rotate(-45deg);
+}

@@ -1,0 +1,182 @@
+@import "var.scss";
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: $desktop;
+    font-family: $fontFamily;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: $textColor; // цвет по умолчанию текста по сайту
+    background-color: $colorBackground; // цвет фона сайта по умолчанию
+}
+
+main {
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+textarea {
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button,
+input,
+a,
+textarea {
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        outline: none;
+    }
+}
+
+img,
+picture {
+    width: 100%;
+    height: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+fieldset {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: inherit;
+}
+
+button {
+    border: none;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    padding: 0;
+    background-color: inherit;
+    text-rendering: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.container {
+    width: $container;
+    margin: 0 auto;
+}
+
+@include smallPhone {
+    html {
+        font-size: $smallPhone; 
+        -webkit-text-size-adjust: none;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+@include phone {
+    html {
+        font-size: $phone; 
+        -webkit-text-size-adjust: none;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+@include tablet {
+    html {
+        font-size: $tablet;
+        -webkit-text-size-adjust: none;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+.none {
+    display: none !important;
+}
+
+.block {
+    display: block !important;
+}
+
+.noscroll {
+    overflow: hidden;
+}

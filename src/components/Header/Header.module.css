@@ -1,0 +1,28 @@
+.header {
+    background-color: var(--color-header-main);
+    background: var(--color-accent);
+    padding: 50px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 72px;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo__item {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.logo__item_text {
+    display: block;
+    margin-left: 8px;
+}

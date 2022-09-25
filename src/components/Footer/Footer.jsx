@@ -73,8 +73,7 @@ export const Footer = () => {
                                </a>
                            </li> 
                       </ul>
-                  </div>
-                      
+                  </div>                     
                   </div>
                   <p className={style.footer__copyright}>© City Events, 2022</p>
               </div> 

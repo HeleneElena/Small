@@ -1,5 +1,5 @@
 import {assignId} from '../../../utils/generateRandomID';
-import {Text} from '../../UI/Text';
+import {Text} from '../../../UI/Text';
 import style from './Tabs.module.css';
 
 const MENU = [

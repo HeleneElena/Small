@@ -25,31 +25,32 @@
 }
 
 .formTitle {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     text-align: center;
 }
 
 .formBorder {
     border-radius: 16px;
     border: 5px solid #B8FF20;
-    padding: 25px;
+    padding: 2%;
     background-color: #B8FF20;
 }
 
 .formInput {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     padding: 15px;
     width: 350px;
     border-radius: 16px;
+    border-color: #B8FF20;
 }
 
 .close {
     position: absolute;
-    top: 3px;
-    right: 14px;
-    font-size: 30px;
+    top: -2px;
+    right: 5px;
+    font-size: 40px;
     color: #000;
-    font-weight: 700;
+    font-weight: 400;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -66,6 +67,7 @@
     box-shadow: 0 2px #96d40f;
     cursor: pointer;
     width: 350px;
+    color: #000;
 }
 
 .registrationBtn:hover {

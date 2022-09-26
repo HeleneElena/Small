@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useCallback, useState, useEffect } from 'react';
 import style from './RegistrationForm.module.css';
-import { useState, useEffect } from 'react';
 
 export const RegistrationForm = () => {
   const [userName, setUserName] = useState('');
@@ -76,6 +75,19 @@ export const RegistrationForm = () => {
   const handleCloseModal = () => {
     setIsOpenModal(!isOpenModal);
   };
+
+  const escFunction = useCallback((event) => {
+    if (event.key === "Escape") {
+      setIsOpenModal(!isOpenModal);
+    }
+  }, []);
+
+  useEffect(() => {
+    document.addEventListener("keydown", escFunction, false);
+    return () => {
+      document.removeEventListener("keydown", escFunction, false);
+    };
+  }, []);
 
   return isOpenModal && (
         <div className={style.modal}>

@@ -9,7 +9,7 @@ export const Auth = () => {
 
   return (
     <div>
-      <button onClick={() => setShowModalForm(!showModalForm)}>
+      <button className={style.auth__button} onClick={() => setShowModalForm(!showModalForm)}>
         <AuthIcon/>
       </button>
       <CSSTransition classNames='alert' in={showModalForm} timeout={800} unmountOnExit>

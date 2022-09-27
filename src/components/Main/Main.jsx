@@ -2,6 +2,7 @@ import Layout from '../Layout';
 import style from './Main.module.css';
 import Location from './Location/Location';
 import Tabs from './Tabs/Tabs';
+import { EventSelection } from './EventSelection/EventSelection';
 
 
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
       <Layout>
           <Tabs/>
           <Location/>
+          <EventSelection/>
       </Layout>
     </main>
   );

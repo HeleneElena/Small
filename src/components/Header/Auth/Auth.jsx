@@ -1,6 +1,6 @@
 import style from './Auth.module.css';
-import {ReactComponent as AuthIcon} from './img/auth.svg';
-import {CSSTransition} from 'react-transition-group';
+import { ReactComponent as AuthIcon } from './img/auth.svg';
+import { CSSTransition } from 'react-transition-group';
 import { RegistrationForm } from '../../RegistrationForm/RegistrationForm';
 import { useState } from 'react';
 

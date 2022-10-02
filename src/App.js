@@ -1,8 +1,11 @@
 // import { Routes, Route, Link } from 'react-router-dom';
-import Header from './components/Header';
+import Container from './components/Container/Container';
 import Footer from './components/Footer';
-import Main from './components/Main/Main';
+import { Location2 } from './components/Main/Location/Location2/Location2';
 import './index.css';
+
+{/*  import Main from './components/Main/Main';
+import Header from './components/Header'; */}
 
 function App() {
 
@@ -10,8 +13,9 @@ function App() {
 
   return (
       <>
-        <Header />
-        <Main />
+        {/*  <Header />
+        <Main /> */}
+          <Location2/>      
         <Footer />
       </>
   );

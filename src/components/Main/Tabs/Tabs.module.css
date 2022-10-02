@@ -2,9 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 72px;
 }
 
 .navigation__list {
@@ -16,7 +13,7 @@
 
 .navigation__link {
     margin-right: 25px;
-    font-size: 26px;
+    font-size: 35px;
     transition: border var(--transition-short);
     border-bottom: 2px solid transparent;
 }

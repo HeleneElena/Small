@@ -1,6 +1,7 @@
-import {assignId} from '../../../utils/generateRandomID';
-import {Text} from '../../../UI/Text';
+import { assignId} from '../../../utils/generateRandomID';
+import { Text } from '../../../UI/Text';
 import style from './Tabs.module.css';
+import Container from './../../Container/Container';
 
 const MENU = [
   {value: 'События', link: '#events'},
@@ -12,7 +13,7 @@ const MENU = [
 
 const Tabs = () => {
   return (
-    <div className={style.container}>
+    <Container> 
       <nav className={style.header__navigation}>
         <ul className={style.navigation__list}>
           {
@@ -25,8 +26,8 @@ const Tabs = () => {
           }
         </ul>
       </nav>
-    </div>
-  )
+    </Container>
+  );
 };
 
 export default Tabs;

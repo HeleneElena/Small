@@ -2,10 +2,11 @@
     max-width: 100%;
     border-radius: 5px;
     position: relative;
+    margin-top: 100px;
 }
 
 .search {
-    width: 914px;
+    width: 814px;
     height: 60px;
     border: 1px solid #CDCDCD;
     border-radius: 16px;
@@ -16,14 +17,14 @@
     padding-right: 54px;
     background-color: #F1EAEA;
     position: absolute;
-    top: 157px;
+    top: 141px;
     left: 80px;
 }
 
 .title {
     position: absolute;
     left: 80px;
-    top: 33px;
+    top: 20px;
     font-size: 80px;
     line-height: 109px;
     text-align: center;
@@ -34,5 +35,35 @@
 .svgSearch {
     position: absolute;
     left: 49%;
-    top: 157px;
+    top: 141px;
+}
+
+.img {
+    max-width: 100%;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 0;
+}
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+    position: absolute;
+    background-color: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    inset: 5%;
+    border-radius: 16px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
 }

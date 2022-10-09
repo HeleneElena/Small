@@ -11,7 +11,7 @@ const MENU = [
   {value: 'Наша команда', link: '#team'},
 ].map(assignId);
 
-const Tabs = () => {
+export const Tabs = () => {
   return (
     <Container> 
       <nav className={style.header__navigation}>
@@ -29,5 +29,3 @@ const Tabs = () => {
     </Container>
   );
 };
-
-export default Tabs;

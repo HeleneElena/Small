@@ -1,5 +1,4 @@
-import { assignId} from '../../../utils/generateRandomID';
-import { Text } from '../../../UI/Text';
+import { assignId } from '../../../utils/generateRandomID';
 import style from './Tabs.module.css';
 import Container from './../../Container/Container';
 
@@ -19,9 +18,9 @@ export const Tabs = () => {
           {
             MENU.map(({value, id, link}) => {
               return (
-              <Text As='li' key={id} className={style.navigation__link}>
-                <Text As='a' href={link}>{value}</Text>
-              </Text>
+              <li key={id} className={style.navigation__link}>
+                <a href={link}>{value}</a>
+              </li>
             )})
           }
         </ul>

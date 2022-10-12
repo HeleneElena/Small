@@ -5,7 +5,6 @@ import { ReactComponent as TelegramIcon } from './img/telegram-icon.svg';
 import { ReactComponent as TwitterIcon } from './img/twitter-icon.svg';
 import { ReactComponent as MailIcon } from './img/mail-icon.svg';
 import { ReactComponent as PhoneIcon } from './img/phone-icon.svg';
-import { Text } from '../../UI/Text';
 import Container from './../Container/Container';
 
 const MENU = [
@@ -33,9 +32,9 @@ export const Footer = () => {
                     {
                       MENU.map(({value, id, link}) => {
                         return (
-                        <Text As='li' key={id} className={style.footer__item}>
-                          <Text As='a' href={link} className={style.footer__link}>{value}</Text>
-                        </Text>
+                        <li key={id} className={style.footer__item}>
+                          <a href={link} className={style.footer__link}>{value}</a>
+                        </li>
                       )})
                     }
                   </ul>

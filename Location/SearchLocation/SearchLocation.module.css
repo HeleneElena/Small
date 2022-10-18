@@ -1,0 +1,44 @@
+
+  .search {
+    width: 674px;
+    height: 60px;
+    background: #F1F9FB;
+    border-color: #f1f9fb0f;
+    border-radius: 70px;
+    padding: 12px 20px;
+    padding-left: 46px;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+
+  .wrapperInput {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .text {
+    font-size: 23px;
+    margin-right: 40px;
+  }
+
+  .svgSearch {
+    position: absolute;
+    left: 460px;
+    top: 12px;
+    opacity: 0.2;
+  }
+
+ .svgClose {
+   position: absolute;
+   width: 26px;
+   height: 26px;
+   right: 12%;
+   top: 16px;
+   opacity: 0.3;
+   cursor: pointer;
+ }
+
+ .svgClose:hover {
+   opacity: 0.8;
+ }

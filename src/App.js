@@ -1,20 +1,24 @@
-import Footer from './components/Footer';
-import './index.css';
-import Header from './components/Header';
-import Main from './components/Main/Main';
-
-
+import { Header } from './components/Header';
+import { Routes, Route } from 'react-router-dom';
+import { Home } from './pages/Home';
+import { Cart } from './pages/Cart';
+import { NotFound } from './pages/NotFound';
 
 function App() {
-  // const [modalActive, setModalActive] = useState(true);
+  
   return (
-    <> 
+    <div className="App">
+     <div className="wrapper">
       <Header />
-      <Main /> 
-      <Footer />
-    </>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/cart' element={<Cart />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+      
+    </div>
+    </div>
   );
-};
+}
 
 export default App;
-
